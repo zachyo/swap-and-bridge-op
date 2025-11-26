@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+solc_version = '0.8.26'
+evm_version = "cancun"
+optimizer_runs = 800
+via_ir = false
+ffi = true
+ 
+[rpc_endpoints]
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/Ly7PHEoJ2iAwPbFZfVbe5iunN09kSQC-"
+op_sepolia = "https://sepolia.optimism.io"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
